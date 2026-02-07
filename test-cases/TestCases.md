@@ -97,4 +97,6 @@ TC-038 | Negative | Logged in | Enter special characters in checkout fields | Va
 
 TC-039 | Negative | Logged in | Refresh page during checkout | Application state handled correctly | User remains on the same checkout page after refresh | Pass | Medium
 
-TC-040 | Negative | Logged in | Open multiple tabs and add items in each | Cart behavior remains consistent | Cart state inconsistent across tabs | Fail (BUG-003) | Low
+TC-040 | Negative | Logged in | Open multiple tabs and add items in each | Cart behavior remains consistent | Cart item count does not update consistently across tabs until refresh | Fail (BUG-003) | Low
+
+TC-041 | Negative | Logged in with items in cart | Click menu → Reset App State | Cart badge should clear immediately | Cart badge does not clear until page navigation or refresh | Fail (BUG-004) | Low
