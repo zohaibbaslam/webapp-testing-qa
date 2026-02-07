@@ -95,6 +95,6 @@ TC-037 | Negative | Logged in | Enter very long text in checkout fields | Applic
 
 TC-038 | Negative | Logged in | Enter special characters in checkout fields | Validation handled correctly | Validation message not descriptive enough | Fail (BUG-001) | Medium
 
-TC-039 | Negative | Logged in | Refresh page during checkout | Application state handled correctly | Checkout progress reset without warning | Fail (BUG-002) | Medium
+TC-039 | Negative | Logged in | Refresh page during checkout | Application state handled correctly | User remains on the same checkout page after refresh | Pass | Medium
 
 TC-040 | Negative | Logged in | Open multiple tabs and add items in each | Cart behavior remains consistent | Cart state inconsistent across tabs | Fail (BUG-003) | Low
